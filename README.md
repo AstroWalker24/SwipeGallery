@@ -19,6 +19,9 @@ A mobile first , fullscreen carousel. Offers a smooth vertical swipe navigation 
 Clone the Repository and install dependencies:
 ```bash 
 git clone https://github.com/AstroWalker24/SwipeGallery.git 
-cd SwipeGallery/UI 
+cd SwipeGallery/UI/vite-project 
 npm install 
-cd ../Proxy
+cd ../../proxy
+npm install
+node index.js 
+

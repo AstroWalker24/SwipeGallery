@@ -33,6 +33,7 @@ app.get('/media', async (req,res)=>{
             })
         ])
 
+
         res.send({
             videos: videoResponse.data,
             images: imageResponse.data
